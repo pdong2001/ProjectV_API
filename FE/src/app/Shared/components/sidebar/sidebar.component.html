@@ -1,0 +1,91 @@
+<div class="main-sidebar sidebar-style-2">
+  <aside id="sidebar-wrapper">
+    <div class="sidebar-brand">
+      <a href="index.html">Quản lý tín dụng</a>
+    </div>
+    <div class="sidebar-brand sidebar-brand-sm">
+      <a href="index.html">FN</a>
+    </div>
+    <ul class="sidebar-menu">
+      <li class="menu-header">Dashboard</li>
+      <li class="nav-item">
+        <a
+          href="#"
+          class="nav-link"
+          ><i class="ion fas fa-fire"></i><span>Dashboard</span></a
+        >
+      </li>
+      <li class="menu-header">Quản lý hệ thống</li>
+      <li class="nav-item dropdown">
+        <a
+          href="#"
+          class="nav-link has-dropdown"
+          data-toggle="dropdown"
+          ><i class="ion fa-solid fa-people-group"></i>
+          <span>Quản lý nhân sự</span></a
+        >
+        <ul class="dropdown-menu">
+          <li routerLinkActive="active">
+            <a
+              class="nav-link"
+              routerLink="/users"
+              >Tài khoản</a
+            >
+          </li>
+          <li
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a
+              class="nav-link"
+              routerLink="/danh-sach-nhan-vien"
+              >Nhân viên</a
+            >
+          </li>
+          <li routerLinkActive="active">
+            <a
+              class="nav-link"
+              routerLink="/danh-sach-ctv"
+              >Cộng tác viên</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li
+        routerLinkActive="active"
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          routerLink="/danh-sach-khach-hang"
+          ><i class="ion fa-solid fa-users"></i> <span>Khách hàng</span></a
+        >
+      </li>
+      <li routerLinkActive="active">
+        <a
+          class="nav-link"
+          routerLink="/danh-sach-pos"
+          ><i class="ion fa-solid fa-coins"></i> <span>POS</span></a
+        >
+      </li>
+      <li class="menu-header">Quản lý giao dịch</li>
+      <li routerLinkActive="active">
+        <a
+          class="nav-link"
+          routerLink="/danh-sach-giao-dich"
+          ><i class="ion fa-solid fa-money-bill-transfer"></i>
+          <span>Danh sách giao dịch</span></a
+        >
+      </li>
+      <li class="menu-header">Thống kê</li>
+      <li>
+        <a
+          class="nav-link"
+          href="blank.html"
+          ><i class="ion fa-solid fa-money-bill-trend-up"></i>
+          <span>Giao dịch</span></a
+        >
+      </li>
+    </ul>
+  </aside>
+</div>

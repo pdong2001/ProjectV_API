@@ -1,0 +1,17 @@
+<div id="app">
+  <div class="main-wrapper">
+    <app-header [user]="user"></app-header>
+    <app-sidebar></app-sidebar>
+    <div class="main-content">
+      <section class="section">
+        <div class="section-header">
+          <h1>{{ title }}</h1>
+        </div>
+
+        <div class="section-body vh-100">
+          <router-outlet></router-outlet>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
